@@ -1,7 +1,7 @@
 from ColoredPrints import print_red, print_green
 from NotYes import notYes
 
-# check 3: what's missing?
+# check 7: patterns!
 def stepSeven():
     print_red("\n---------------------------------")
     print("""
