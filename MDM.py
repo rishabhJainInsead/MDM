@@ -9,6 +9,7 @@ from StepFive import stepFive
 from StepSix import stepSix
 from StepSeven import stepSeven
 from StepEight import stepEight
+from StepNine import stepNine
 from StepEleven import stepEleven
 
 
@@ -21,6 +22,7 @@ def FirstTen():
     stepSix()
     stepSeven()
     stepEight()
+    stepNine()
 def MDM():
     print_green("""-------------------------------------------------
 Welcome to your computer-aided decision making toolkit!""")
