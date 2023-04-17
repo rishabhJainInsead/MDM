@@ -34,7 +34,7 @@ def stepFive():
 You made it to step 5!
 Time for the real brain twisting: testing 1-2-3.
 
-<COMMENTARY>
+Testing is like trying to fit a giraffe into a car - it may seem awkward and ridiculous, but it's better to discover it won't work in the testing phase than on the road.
 """)
 
     realityTestRecurring()
