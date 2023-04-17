@@ -5,7 +5,7 @@ MDM Class Project
 Decision Making Framework
 
 Go through decision process checks
-*1. Have we considered our fundamental objectives? What are we trying to achieve?
+Markup: *1. Have we considered our fundamental objectives? What are we trying to achieve?
 *2. Have we expanded our view and considered multiple perspectives? Have we thought creatively and considered many alternatives, beyond the most evident ones?
 *3. What is missing from our analysis? Where is the gorilla? What is it that we do not know? What do we wish we knew? What additional information would help inform our decision? How can we get this information?
 *4. Have we sought for evidence that contradicts our beliefs?
