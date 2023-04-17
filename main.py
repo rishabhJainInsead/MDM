@@ -9,8 +9,8 @@ from termcolor import colored
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    f = Figlet(font='banner3-D')
-    print(colored(f.renderText('Welcome'), 'red'))
+    f = Figlet(font='banner3')
+    print(colored(f.renderText('Making Good Decisions'), 'red'))
     MDM()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
