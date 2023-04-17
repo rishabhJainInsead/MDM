@@ -1,5 +1,5 @@
 # This is a sample Python script.
-from MDM import MDM
+from MDM import mdm
 from pyfiglet import Figlet
 from termcolor import colored
 
@@ -11,6 +11,6 @@ from termcolor import colored
 if __name__ == '__main__':
     f = Figlet(font='banner3')
     print(colored(f.renderText('Making Good Decisions'), 'red'))
-    MDM()
+    mdm()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

@@ -1,4 +1,3 @@
-import random
 from ColoredPrints import print_green
 
 from StepOne import stepOne
@@ -12,9 +11,14 @@ from StepEight import stepEight
 from StepNine import stepNine
 from StepTen import stepTen
 from StepEleven import stepEleven
+from StepTwelve import stepTwelve
+from StepThirteen import stepThirteen
+from StepFourteen import stepFourteen
+from StepFifteen import stepFifteen
+from StepSixteen import stepSixteen
 
 
-def FirstTen():
+def firstTen():
     stepOne()
     stepTwo()
     stepThree()
@@ -25,12 +29,19 @@ def FirstTen():
     stepEight()
     stepNine()
     stepTen()
-def MDM():
+
+
+def mdm():
     print_green("""-------------------------------------------------
 Welcome to your computer-aided decision making toolkit!""")
 
-    FirstTen()
+    firstTen()
     while stepEleven():
-        FirstTen()
+        firstTen()
 
-    #stepTwelve()
+    stepTwelve()
+    stepThirteen()
+    stepFourteen()
+    stepFifteen()
+    stepSixteen()
+

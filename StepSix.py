@@ -5,7 +5,11 @@ from NotYes import notYes
 def stepSix():
     print_red("\n---------------------------------")
     print("""
-\nYou made it to step 6! Sometimes our beliefs don't match reality, just ask any child who learns Santa is not real. Test your beliefs!""")
+\nYou made it to step 6! 
+Sometimes our beliefs don't match reality, 
+just ask any child who learns Santa is not real. 
+Test your beliefs!""")
+
     dontKnow = input("\nAre you doing what will really work, not just what you believe will work?: [yes/no] ")
     while notYes(dontKnow):
         print_red("Journey's 'Don't Stop Believing' is a great song, but this is not the time or place. Check your reality.")
