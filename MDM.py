@@ -1,4 +1,4 @@
-from ColoredPrints import print_green
+from ColoredPrints import print_green, print_red
 
 from StepOne import stepOne
 from StepTwo import stepTwo
@@ -12,8 +12,8 @@ from StepNine import stepNine
 from StepTen import stepTen
 from StepEleven import stepEleven
 from StepTwelve import stepTwelve
-from StepThirteen import stepThirteen
-from StepFourteen import stepFourteen
+#from StepThirteen import stepThirteen
+#from StepFourteen import stepFourteen
 from StepFifteen import stepFifteen
 from StepSixteen import stepSixteen
 
@@ -61,10 +61,23 @@ Welcome to your computer-aided decision making toolkit!""")
         firstTen()
 
     stepTwelve()
+
+    print_red("""
+    \nStep 13 and 14 are for groups. 
+    
+    Unfortunately, we haven't added the secret sauce for 
+    getting groups/team decision making in this framework.
+    
+    Mario and Luigi can save the princess later when we get to it.
+    
+    Moving on .......  ¯\_(ツ)_/¯\n
+    """)
+
     #stepThirteen()
     #stepFourteen()
-    #stepFifteen()
-    #stepSixteen()
+
+    stepFifteen()
+    stepSixteen()
 
     conclude()
 
