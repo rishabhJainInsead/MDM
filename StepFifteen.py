@@ -28,7 +28,7 @@ Have you thought about the following questions,
 2. To which extent is this decision ethical? Unethical? 
 3. Can you think of other options that would be more in line with our values?
 
-Remember, legal and ethical may not always be the same.
+Legal and ethical may not always be the same. Remember the Sadhu.
 
     """)
 
