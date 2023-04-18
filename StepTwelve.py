@@ -19,6 +19,8 @@ Get some skin in the game.
 There is high likelihood that you are acting in over-committed to the decision.
 Why don't you reassess the resources you've allocated and 
 break the larger decision down to smaller ones to remove commitment bias.
+
+If your friends jumped off a bridge, would you do it too .............. ?
         """)
         twelveRecurring()
     else:
