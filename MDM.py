@@ -17,9 +17,12 @@ from StepFourteen import stepFourteen
 from StepFifteen import stepFifteen
 from StepSixteen import stepSixteen
 
+from pyfiglet import Figlet
+from termcolor import colored
+
 
 def conclude():
-    print_green("""
+    conclusionText = """
     You're now done at the end of the decision making framework.
     Healthy decision making is an exercise in self awareness and objectivity.
     
@@ -33,7 +36,8 @@ def conclude():
     Rishabh Jain
     
     You're welcome.
-    """)
+    """
+    print(colored(conclusionText, 'navy_blue'))
 
 def firstTen():
     stepOne()
