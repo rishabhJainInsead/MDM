@@ -10,7 +10,7 @@ from termcolor import colored
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     f = Figlet(font='banner')
-    print(colored(f.renderText('Making Good Decisions'), 'red'))
+    print(colored(f.renderText('Making Mindful Decisions'), 'red'))
     mdm()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

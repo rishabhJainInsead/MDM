@@ -6,10 +6,20 @@ def getAlternativeAssociations():
 Now that you have forced connections, write out non-obvious alternatives.
 Write down several alternatives beyond the most obvious ones. Enter 'yes' when done: """)
 
+    wordList = [
+        'table',
+        'bottle',
+        'backpack',
+        'wall',
+        'fooseball',
+        'piano',
+        'plant'
+    ]
     nextAlt = ""
     count = 1
     while notYes(nextAlt):
-        print("Alternative Association #" + str(count) + " :")
+        print("Alternative Association #" + str(count) + " :" + wordList.pop())
+        print("Are you done? [Yes,No] ")
         nextAlt = input()
         count = count + 1
 
