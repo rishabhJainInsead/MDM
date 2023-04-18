@@ -9,7 +9,7 @@ from termcolor import colored
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    f = Figlet(font='doh')
+    f = Figlet(font='banner')
     print(colored(f.renderText('Making Good Decisions'), 'red'))
     mdm()
 

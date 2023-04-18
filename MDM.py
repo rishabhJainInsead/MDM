@@ -1,4 +1,4 @@
-from ColoredPrints import print_green, print_red
+from ColoredPrints import print_green, print_red, print_navy
 
 from StepOne import stepOne
 from StepTwo import stepTwo
@@ -22,7 +22,7 @@ from termcolor import colored
 
 
 def conclude():
-    conclusionText = """
+    print_navy("""
     You're now done at the end of the decision making framework.
     Healthy decision making is an exercise in self awareness and objectivity.
     
@@ -36,8 +36,7 @@ def conclude():
     Rishabh Jain
     
     You're welcome.
-    """
-    print(colored(conclusionText, 'navy_blue'))
+    """)
 
 def firstTen():
     stepOne()
@@ -63,6 +62,7 @@ Welcome to your computer-aided decision making toolkit!""")
     stepTwelve()
 
     print_red("""
+    -----------------------------------------------------
     \nStep 13 and 14 are for groups. 
     
     Unfortunately, we haven't added the secret sauce for 
