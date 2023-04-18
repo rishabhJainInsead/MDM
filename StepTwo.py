@@ -26,7 +26,7 @@ Write down several alternatives beyond the most obvious ones. Enter 'yes' when d
     return
 
 def firstRecurring():
-    firstWord = input("Ready for the first word? [yes/no] ")
+    firstWord = input("Ready for the second word? [yes/no] ")
     if not notYes(firstWord):
         print("Force a connection between your problem and the following word: apple\n")
     else:
@@ -45,7 +45,7 @@ Force a connection between your problem and the following word: flashlight
     return
 
 def secondRecurring():
-    secondWord = input("Ready for the second word? [yes/no] ")
+    secondWord = input("Ready for the third word? [yes/no] ")
     if not notYes(secondWord):
         print("Force a connection between your problem and the following word: house\n")
     else:
@@ -61,7 +61,7 @@ Here comes the second word!""")
     return
 
 def thirdRecurring():
-    thirdWord = input("Ready for the third word? [yes/no] ")
+    thirdWord = input("Ready for the last word? [yes/no] ")
     if not notYes(thirdWord):
         print("Force a connection between your problem and the following word: bee\n")
     else:
@@ -84,7 +84,7 @@ def stepTwo():
     secondWord()
     thirdWord()
 
-    getAlternativeAssociations()
+    #getAlternativeAssociations()
     return
 
 

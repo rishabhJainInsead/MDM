@@ -27,7 +27,7 @@ Decisions are emotional experiences. Here are some important questions to ask yo
 2. How might emotions be influencing your decision?
 3. Is it the right moment to make any decision?
 4. Are you putting unnecessary time constraints on our thinking process which increase emotions?
-5. Have you given ourselves enough time to consider all alternatives.
+5. Have you given yourself enough time to consider all alternatives.
     """)
     emotionalRecurring()
 

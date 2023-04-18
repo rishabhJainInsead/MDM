@@ -8,7 +8,7 @@ is the decision the best one you can make in alignment with your judgement and e
 
     isEthical = input()
     if isEthical in ['No', 'no', 'It kills me inside']:
-        print_red("Nope, absolutely not. We're not even goign to talk about this.")
+        print_red("Nope, absolutely not. We're not even going to talk about this.")
         ethicalRecurring()
     elif isEthical in ['Yes', 'yes', 'no problem', 'ethics?']:
         print_green("You've got it together. I'm moving onto the next step.")
