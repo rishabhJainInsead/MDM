@@ -62,7 +62,7 @@ Welcome to your computer-aided decision making toolkit!""")
     stepTwelve()
 
     print_red("""
-    -----------------------------------------------------
+-----------------------------------------------------
     \nStep 13 and 14 are for groups. 
     
     Unfortunately, we haven't added the secret sauce for 

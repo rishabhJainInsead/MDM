@@ -55,7 +55,7 @@ def secondRecurring():
 def secondWord():
     print("""
 \nLet's do this 2 more times.
-Here comes the second word!""")
+Here comes the third word!""")
 
     secondRecurring()
     return
@@ -72,7 +72,7 @@ def thirdRecurring():
 def thirdWord():
     print("""
 \nLet's do this 1 more time.
-Last one. Here comes the third word!""")
+Last one. Here comes the fourth word!""")
 
     thirdRecurring()
     return

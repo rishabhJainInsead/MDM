@@ -1,13 +1,19 @@
-from ColoredPrints import print_green, print_red
+from ColoredPrints import print_green, print_red, print_yellow
 
 def twelveRecurring():
     print("If your commitment was a t-shirt size(XS, S, M, L, XL) what would the size be?  ")
     commitmentScale = input()
-    if commitmentScale in ['XS', 'S', 'M']:
+    if commitmentScale in ['S', 'M']:
         print_green("""
 Some commitment is necessary to make sure you do due diligence. 
 Please keep an eye out for changes in biases due to over-commitment.\n""")
         return
+    elif commitmentScale in ['XS']:
+        print_yellow("""
+Over-committing is a problem but so is under-committing.
+Get some skin in the game.
+        """)
+        twelveRecurring()
     elif commitmentScale in ['L', 'XL']:
         print_red("""
 There is high likelihood that you are acting in over-committed to the decision.
