@@ -18,6 +18,23 @@ from StepFifteen import stepFifteen
 from StepSixteen import stepSixteen
 
 
+def conclude():
+    print_green("""
+    You're now done at the end of the decision making framework.
+    Healthy decision making is an exercise in self awareness and objectivity.
+    
+    If you want to know more about management decision making, its too late. P4 is over.
+    However, if you'd like to sponsor us a coffee feel free to reach out to any of us,
+    
+    Lucile Feron
+    Yash Nagpal
+    Nana Yaw
+    Nicolas Sdez
+    Rishabh Jain
+    
+    You're welcome.
+    """)
+
 def firstTen():
     stepOne()
     stepTwo()
@@ -40,8 +57,10 @@ Welcome to your computer-aided decision making toolkit!""")
         firstTen()
 
     stepTwelve()
-    stepThirteen()
-    stepFourteen()
-    stepFifteen()
-    stepSixteen()
+    #stepThirteen()
+    #stepFourteen()
+    #stepFifteen()
+    #stepSixteen()
+
+    conclude()
 
